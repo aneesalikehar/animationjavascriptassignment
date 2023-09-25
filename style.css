@@ -1,0 +1,42 @@
+.main{
+    background-image: url(./img/animated-gifs-of-fighting-game-backgrounds-19.gif);
+    background-size: cover;
+    height: 105vh;
+    position: relative;
+}
+
+.character{
+    position: absolute;
+    top: 606px;
+    bottom: 20px;
+    width: 350px;
+    height: 50vh;
+    position: absolute;
+}
+
+.character2{
+    width: 350px;
+    height: 50vh;
+    position: absolute;
+    top: 54%;
+    right: 0;
+    transform: rotate(45deg);
+    transform-origin: top left;
+    transform: scaleX(-1) scaleY(1);
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+.right{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
